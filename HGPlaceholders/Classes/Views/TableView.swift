@@ -21,6 +21,7 @@ public protocol PlaceholderDelegate: class {
 }
 
 ///  A table view  that allows to show easily placeholders like no results, no internet connection, etc
+@objc(HGTableView)
 open class TableView: UITableView {
     
     // MARK: - Public properties
