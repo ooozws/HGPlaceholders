@@ -9,6 +9,7 @@
 import UIKit
 
 ///  A collection view  that allows to show easily placeholders like no results, no internet connection, etc
+@objc(HGCollectionView)
 open class CollectionView: UICollectionView {
     
     // MARK: - Public properties
